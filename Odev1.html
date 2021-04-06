@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sporcu Anketi</title>
+    <link rel='stylesheet' href='Odev1.css'>
+
+
+</head>
+
+<body>
+    <form action="">
+        <div class="header">
+            <h1>Sporcu Anketi</h1>
+            <h2>Sivas Cumhuriyet Üniversitesi</h2>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <div class="form-row">
+                        <label>Ad</label>
+                        <input id="Ad" type="text" placeholder="Haşim" required>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-row">
+                        <label>Soyad</label>
+                        <input id="Soyad" type="text" placeholder="ÖZDEMİR" required>
+                        <div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-row">
+                        <label>Telefon</label>
+                        <input id="Telefon" type="tel" placeholder="05XXXXXXXXX" required>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="form-row">
+                        <label>Email</label>
+                        <input id="Email" type="email" placeholder="example@gmail.com" required>
+                    </div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+
+                    <div class="form-row">
+                        <label for="Tarih">Tarih</label>
+
+                        <input type="date">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-row">
+                        <label for="Cinsiyetiniz">Cinsiyetiniz</label >
+            <input type="radio" name="Cinsiyetiniz">Erkek
+            <input type="radio" name="Cinsiyetiniz">Kadın
+              </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-row">
+                            <label>Sevdiğiniz Spor</label>
+                        <select name="Sport" id="Sport">
+              <option>Futbol</option>
+              <option>Basketbol</option>
+              <option>Voleybol</option>
+              <option>Tenis</option>
+              <option>Boks</option>
+              <option>Diğer</option>
+            </select>
+                        <br><br>
+                    </div>
+
+                </td>
+                <td>
+                    <div class="form-row">
+                        <label>Şehir</label>
+                        <select>
+                                <option value="İstanbul">İstanbul</option>
+                                <option value="İzmir">İzmir</option>
+                                <option value="Ankara">Ankara</option>
+                                <option value="Kayseri">Kayseri</option>
+                                <option value="Sivas">Sivas</option>
+                                <option value="Nevşehir">Nevşehir</option>
+                            </select>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <table class="form-row">
+            <tr>
+                <th>Sorular</th>
+
+                <th>Evet</th>
+                <th>Hayır</th>
+            </tr>
+            <tr>
+                <td>Sporu seviyor musunuz ?</td>
+                <td><input type="radio" name="1.soru"></td>
+                <td><input type="radio" name="1.soru"></td>
+            </tr>
+
+            <tr>
+                <td>Amatör sporcu musunuz ?</td>
+                <td><input type="radio" name="2.soru"></td>
+                <td><input type="radio" name="2.soru"></td>
+            </tr>
+
+            <tr>
+                <td>Profesyonel sporcu musunuz ?</td>
+                <td><input type="radio" name="3.Soru"></td>
+                <td><input type="radio" name="3.Soru"></td>
+            </tr>
+
+            <tr>
+                <td>Herhangi bir spor branşında turnuvaya katıldınız mı ?</td>
+                <td><input type="radio" name="4.soru"></td>
+                <td><input type="radio" name="4.soru"></td>
+            </tr>
+
+            <tr>
+                <td>Katıldığınız turnuvalarda madalyanız var mı?</td>
+                <td><input type="radio" name="5.soru"></td>
+                <td><input type="radio" name="5.soru"></td>
+            </tr>
+        </table>
+
+        <div class="form-row">
+            <label for="Mesaj">Mesaj</label>
+            <textarea id="Mesaj" cols="30" rows="5"></textarea>
+        </div>
+
+        <div class="form-row">
+            <button type="reset">Sıfırla</button>
+            <button type="submit">Gönder</button>
+        </div>
+    </form>
+</body>
+
+</html>
